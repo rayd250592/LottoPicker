@@ -7,7 +7,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="White">
+        <Button Content="Generate Numbers" HorizontalAlignment="Left" Height="89" Margin="510,587,0,0" VerticalAlignment="Top" Width="261" FontSize="24" Foreground="#FF232121" Background="White" BorderBrush="#FF443D3D"/>
+        <TextBlock HorizontalAlignment="Left" Margin="391,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"  Foreground="#FF111111">
+        	<Run Text="Lotto Number "/>
+        	<Run Text="Generator"/>
+        </TextBlock>
+        <Image HorizontalAlignment="Left" Height="143" Margin="75,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="228,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="391,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="570,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="750,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="913,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="1105,305,0,0" VerticalAlignment="Top" Width="158" Source="Assets/white_sphere.jpg"/>
 
     </Grid>
 </Page>

@@ -34,5 +34,7 @@ namespace LottoPicker
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+       
     }
 }
