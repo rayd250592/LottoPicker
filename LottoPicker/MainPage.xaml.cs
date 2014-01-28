@@ -35,6 +35,36 @@ namespace LottoPicker
         {
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            Random random1 = new Random();
+            Random random2 = new Random();
+            Random random3 = new Random();
+            Random random4 = new Random();
+            Random random5 = new Random();
+            Random random6 = new Random();
+            Random random7 = new Random();
+
+            int no1 = random1.Next(1, 50);
+            int no2 = random1.Next(1, 50);
+            int no3 = random1.Next(1, 50);
+            int no4 = random1.Next(1, 50);
+            int no5 = random1.Next(1, 50);
+            int no6 = random1.Next(1, 50);
+            int no7 = random1.Next(1, 50);
+
+            number1.Text = no1.ToString();
+            number2.Text = no2.ToString();
+            number3.Text = no3.ToString();
+            number4.Text = no4.ToString();
+            number5.Text = no5.ToString();
+            number6.Text = no6.ToString();
+            bonus.Text = no7.ToString();
+
+        }
+
        
     }
 }
