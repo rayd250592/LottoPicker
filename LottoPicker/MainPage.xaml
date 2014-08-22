@@ -27,7 +27,7 @@
         <TextBlock x:Name="number5" HorizontalAlignment="Left" Height="45" Margin="871,361,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="52" Foreground="#FF404040" FontSize="22"/>
         <TextBlock x:Name="number6" HorizontalAlignment="Left" Height="45" Margin="1038,361,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="52" Foreground="#FF404040" FontSize="22"/>
         <TextBlock x:Name="bonus" HorizontalAlignment="Left" Height="87" Margin="1211,361,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="88" Foreground="Red" FontSize="22"/>
-        <TextBlock x:Name="number3_Copy" HorizontalAlignment="Left" Height="45" Margin="1211,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FF404040" FontSize="22" RenderTransformOrigin="0.625,2.867">
+        <TextBlock x:Name="number3_Copy" HorizontalAlignment="Left" Height="45" Margin="1211,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FFF52727" FontSize="22" RenderTransformOrigin="0.625,2.867">
         	<Run FontWeight="Bold" Text="BONUS"/>
         </TextBlock>
 
