@@ -30,6 +30,7 @@
         <TextBlock x:Name="number3_Copy" HorizontalAlignment="Left" Height="45" Margin="1211,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FF404040" FontSize="22" RenderTransformOrigin="0.625,2.867">
         	<Run FontWeight="Bold" Text="BONUS"/>
         </TextBlock>
+        <Button Content="About" HorizontalAlignment="Left" Height="89" Margin="75,589,0,0" VerticalAlignment="Top" Width="261" FontSize="24" Foreground="#FF232121" Background="White" BorderBrush="#FF443D3D" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

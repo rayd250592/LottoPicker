@@ -18,7 +18,7 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <PackageCertificateThumbprint>10028D3FC3FD70FA3F18C85DF71A761A03970D7B</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>B47A4D5999134DEB27D34C7F2BA4F1FDFF506ED4</PackageCertificateThumbprint>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <TargetFrameworkVersion />
@@ -125,8 +125,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="LottoPicker_StoreKey.pfx" />
-    <None Include="LottoPicker_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
@@ -134,6 +132,8 @@
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\white_sphere.jpg" />
+    <None Include="LottoPicker_StoreKey.pfx" />
+    <None Include="LottoPicker_TemporaryKey.pfx" />
     <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>

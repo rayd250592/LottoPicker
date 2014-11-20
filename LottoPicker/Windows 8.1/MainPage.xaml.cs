@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -63,6 +64,12 @@ namespace LottoPicker
             number6.Text = no6.ToString();
             bonus.Text = no7.ToString();
 
+        }
+
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var messageDialog2 = new MessageDialog("Developed by Raymond Dillon");
+            await messageDialog2.ShowAsync();
         }
 
        
